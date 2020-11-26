@@ -23,4 +23,12 @@ En esto es en lo que se está trabajando y estará en futuras versiones
 - Cambiar el programa para que tenga herencia.
 - Crear un método que te calcule el precio total de la reserva según los dias que te quedes en el hotel.
 
-https
+## Testeo
+
+Creacion de una nueva cuenta con licencia de Hotelero:
+
+![](Assets/CrearCuentaHotelero.png)
+
+La cuenta se crea correctamente junto con la carpeta:
+
+
