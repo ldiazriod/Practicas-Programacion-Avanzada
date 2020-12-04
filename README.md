@@ -26,7 +26,6 @@ En esto es en lo que se está trabajando y estará en futuras versiones
 - Meter un método de confirmación de los datos del usuario al crear una sesión. Con este metodo el usuario podrá cambiar los datos en el caso de que se equivoque al crear una cuenta.
 - Crear un método que te permita cancelar una reserva.
 - Crear un método que te permita borrar un usuario.
-- Cambiar el programa para que tenga herencia.
 - Crear un método que te calcule el precio total de la reserva según los dias que te quedes en el hotel.
 
 ## Testeo
