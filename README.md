@@ -2,9 +2,15 @@
 
 ## Contenido añadido:
 
-- Se ha añadido una interfaz con algoritmos para navegar entre ficheros.
-- Ahora cuando un cliente busque hoteles, le saldrá con toda la información y con los hoteles ordenados de más estrellas a menos estrellas.
-- Se ha cambiado un metodo para que utilize un operador ternario.
+- Se han añadido dos nuevos metodos en la inferfaz:
+1. Vector<String> guardarInfoDatostxt(String path); Este metodo nos permite guardar en un vector todos los datos de un fichero de texto. Con esto podemos añadir contenido a ficheros ya creados.
+2. boolean borrarFicheros(File directorio); Este metodo es un algoritmo recursivo que nos permite borrar todos los ficheros del programa.
+  
+- Se ha añadido una nueva clase Administrador. Con esta clase podemos borrar todos los ficheros del programa. Para ello se necesita una clave que el administrador debe añadir, no es la misma contraseña que la del usuario admin. La contraseña va encriptada con la clase RSA. Además 
+
+- Se ha añadido una nueva clase RSA. Esta clase nos permite hacer varias cosas relacionadas con la encriptación de los datos.
+
+
 
 ## ¿Por qué utilizar interfaces?:
 
