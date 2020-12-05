@@ -100,7 +100,11 @@ Dentro de la carpeta eHotel, en el fichero de misHoteles.txt:
 
 ![](Assets/DirectorioEHotelNuevoHotel.png)
 
-Dentro de la carpeta del usuario:
+Dentro de la carpeta del usuario, en el directorio hotelesUsuario:
 
 ![](Assets/HotelPrueba1.png)
+
+Y dentro del fichero de texto con el nombre del hotel:
+
+![](Assets/HotelPrueba1FicheroDeTexto.png)
 
