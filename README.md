@@ -73,3 +73,34 @@ A continuación veremos que ocurre si al iniciar sesión alguno de los datos es 
 En el caso de que el nombre sea incorrecto:
 
 ![](Assets/InicioDeSesionHoteleroNombreIncorrecto.png)
+
+En el caso de que el apellido sea incorrecto:
+
+![](Assets/InicioDeSesionHoteleroApellidoIncorrecto.png)
+
+En el caso de que la contraseña sea incorrecta:
+
+![](Assets/InicioDeSesionHoteleroContrasenaIncorrecta.png)
+
+#### Dar de alta un hotel:
+Una vez tenemos nuestra cuenta creada, y si tenemos licencia de hotelero, podemos añadir hoteles a la plataforma.
+Primero vamos a ver si efectivamente el cliente no tiene hoteles usando la opción de mirar todos los hoteles que tiene el usuario:
+
+![](Assets/IniciarSesionHyBuscarHotelesVacios.png)
+
+Efectivamente no tiene hoteles, así que vamos a añadir uno:
+
+![](Assets/anadirHotelyBuscarloSinCambiarDatos.png)
+
+En esta imagen se muestra todo el proceso, primero busca si tiene hoteles, al ver que no tiene crea uno y mete toda la información del hotel. Una vez acabado este proceso se le pregunta si quiere cambiar algo, ahora iremos a ello, pero en este caso no quiere cambiar nada, por lo que lo crea y luego mira si efectivamente ahora tiene un hotel.
+
+Ahora veamos que ha ocurrido en la carpeta:
+
+Dentro de la carpeta eHotel, en el fichero de misHoteles.txt:
+
+![](Assets/DirectorioEHotelNuevoHotel.png)
+
+Dentro de la carpeta del usuario:
+
+![](Assets/HotelPrueba1.png)
+
