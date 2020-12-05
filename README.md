@@ -29,11 +29,34 @@ En esto es en lo que se está trabajando y estará en futuras versiones
 - Crear un método que te calcule el precio total de la reserva según los dias que te quedes en el hotel.
 
 ## Testeo
-
+### Hotelero
 Creacion de una nueva cuenta con licencia de Hotelero:
 
 ![](Assets/CrearCuentaHotelero.png)
 
-La cuenta se crea correctamente junto con la carpeta:
+Cuando una nueva cuenta se crea y la carpeta no existe, el programa la crea automaticamente, esto solo ocurre la primera vez:
 
+![](Assets/CreacionCarpetaGeneral.png)
+
+El fichero llamado misHoteles.txt guarda los nombres de todos los hoteles, en este caso al no añadir ningun hotel esta vacio.
+En el directorio misUsuarios se guardan directorios correspondientes con cada usuario:
+
+![](Assets/CreacionDeCarpetaUsuarioHotelero.png)
+
+El directorio se crea y se le nombra con el nombre y el apellido del usuario. Con apellidos compuestos que van separados por espacios también funciona, lo veremos más tarde.
+Dentro de esta carpeta se crean dos ficheros:
+
+![](Assets/InteriorCarpetaUsuarioHotelero.png)
+
+El directorio de hotelesUsuario tiene como fin guardar la información de cada uno de los hoteles que tiene este usuario dados de alta en el programa.
+En el fichero de texto datos.txt se guardan los datos del usuario:
+
+![](Assets/InteriorDeDatosTxt.png)
+
+El formato es el siguiente:
+ 1. Nombre
+ 2. Primer apellido
+ 3. DNI
+ 4. Contraseña
+ 5. Licencia
 
