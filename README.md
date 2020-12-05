@@ -30,6 +30,7 @@ En esto es en lo que se está trabajando y estará en futuras versiones
 
 ## Testeo
 ### Hotelero
+#### Creacion de cuenta
 Creacion de una nueva cuenta con licencia de Hotelero:
 
 ![](Assets/CrearCuentaHotelero.png)
@@ -59,4 +60,16 @@ El formato es el siguiente:
  3. DNI
  4. Contraseña
  5. Licencia
+ 
+ #### Inicio de sesión Hotelero
+ Una vez creada la cuenta, como se ve en la primera imagen, te lleva directamente al menu de los hoteleros. Esto también ocurre cuando inicias sesion. 
+ Vamos a iniciar sesion con la cuenta que hemos creado antes:
+ 
+ ![](Assets/InicioDeSesionHoteleroDatosCorrectos.png)
 
+Como se ve, cuando se inicia sesión y los datos son correctos te lleva al menú hotelero.
+A continuación veremos que ocurre si al iniciar sesión alguno de los datos es incorrecto:
+
+En el caso de que el nombre sea incorrecto:
+
+![](Assets/InicioDeSesionHoteleroNombreIncorrecto.png)
