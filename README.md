@@ -9,21 +9,15 @@
 
 - Se ha añadido una nueva clase Administrador. Con esta clase podemos borrar todos los ficheros del programa. Para ello se necesita una clave que el administrador debe añadir, no es la misma contraseña que la del usuario admin. La contraseña va encriptada con la clase RSA. Además  
   
-- Se ha añadido una nueva clase RSA. Esta clase nos permite hacer varias cosas relacionadas con la encriptación de los datos.   
+- Se ha añadido una nueva clase RSA. Esta clase nos permite hacer varias cosas relacionadas con la encriptación de los datos. 
+
+- Se ha añadido una nueva clase Templates donde se irán metiendo los metodos templatizados.
 
 ## ¿Por qué utilizar interfaces?: 
 
 Se ha decido meter estos algoritmos en una interfaz para que puedan usarse más adelante en el caso de que los necesitemos para otras clases. Gracias a esto podemos ahorrar tiempo y coste. 
 Por otro lado, más adelante nos será más fácil mejorar el código de formas más eficientes y manteniendo las clases lo más limpias posibles. 
 La idea principal es ir aplicando estas interfaces al resto del código para ir mejorando la aplicación. 
-
-## ¡Estamos trabajando en ello!: 
-En esto es en lo que se está trabajando y estará en futuras versiones 
-
-- Meter un método de confirmación de los datos del usuario al crear una sesión. Con este método el usuario podrá cambiar los datos en el caso de que se equivoque al crear una cuenta. 
-- Crear un método que te permita cancelar una reserva. 
-- Crear un método que te permita borrar un usuario. 
-- Crear un método que te calcule el precio total de la reserva según los días que te quedes en el hotel. 
 
 ## Testeo 
 ### Hotelero 
