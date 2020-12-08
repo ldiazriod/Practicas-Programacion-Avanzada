@@ -176,4 +176,11 @@ Los datos guardados siguen este orden:
  5. Licencia 
  6. Contraseña para el borrado encriptada  
 
-#### Borrar toda la carpeta 
+#### Borrar toda la carpeta
+Cuando se borran las carpeta correctamnete sale un mensaje por pantalla:
+
+![](Assets/CarpetaDelProgramaBorrada.png)
+
+Lo que hace es coger la clave encriptada, la desencripta y la compara a la metida por el usuario. Si es correcta lo borra todo.
+
+No tengo forma de enseñarte que esto ha ocurrido realmente, aunque si lo pruebas verás que funciona correctamente.
