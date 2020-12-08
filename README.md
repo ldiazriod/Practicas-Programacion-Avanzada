@@ -108,3 +108,6 @@ Y dentro del fichero de texto con el nombre del hotel:
 
 ![](Assets/HotelPrueba1FicheroDeTexto.png)
 
+Ahora vamos a ver que pasa cuando decidimos cambiar los datos cuando nos equivocamos al añadir un nuevo hotel:
+
+![](Assets/NuevoHotelCambiarDatos.png)
