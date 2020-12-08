@@ -111,3 +111,11 @@ Y dentro del fichero de texto con el nombre del hotel:
 Ahora vamos a ver que pasa cuando decidimos cambiar los datos cuando nos equivocamos al añadir un nuevo hotel:
 
 ![](Assets/NuevoHotelCambiarDatos.png)
+
+Vamos a añadir una habitación a un hotel:
+
+![](Assets/AnadirYBuscarHotel.png)
+
+Por ultimo vamos a borrar un hotel:
+
+![](Assets/BorrarHotel.png)
